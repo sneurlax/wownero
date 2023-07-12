@@ -56,7 +56,7 @@ using namespace cryptonote;
 #undef MONERO_DEFAULT_LOG_CATEGORY
 #define MONERO_DEFAULT_LOG_CATEGORY "WalletAPI"
 
-namespace Monero {
+namespace Wownero {
 
 namespace {
     // copy-pasted from simplewallet
@@ -434,6 +434,9 @@ WalletImpl::WalletImpl(NetworkType nettype, uint64_t kdf_rounds)
 
     m_refreshIntervalMillis = DEFAULT_REFRESH_INTERVAL_MILLIS;
 
+    m_refreshThread = boost::thread([this] () {
+        this->refreshThreadFunc();
+    });
 }
 
 WalletImpl::~WalletImpl()

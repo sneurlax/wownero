@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Wownero {
     TransactionConstructionInfo::~TransactionConstructionInfo() = default;
 
     TransactionConstructionInfo::Input::Input(uint64_t _amount, const std::string &_pubkey)

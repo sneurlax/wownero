@@ -6,7 +6,7 @@
 #include "wallet.h"
 #include <string>
 
-namespace Monero {
+namespace Wownero {
 
 class TransactionConstructionInfoImpl : public TransactionConstructionInfo
 {

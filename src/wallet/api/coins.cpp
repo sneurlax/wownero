@@ -10,7 +10,7 @@
 
 using namespace epee;
 
-namespace Monero {
+namespace Wownero {
 
     Coins::~Coins() = default;
 

@@ -5,7 +5,7 @@
 #include <string>
 #include <ctime>
 
-namespace Monero {
+namespace Wownero {
 
     class CoinsImpl;
 

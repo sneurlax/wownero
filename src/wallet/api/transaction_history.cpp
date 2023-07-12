@@ -42,7 +42,7 @@
 
 using namespace epee;
 
-namespace Monero {
+namespace Wownero {
 
 TransactionHistory::~TransactionHistory() {}
 

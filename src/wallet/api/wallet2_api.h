@@ -40,7 +40,7 @@
 #include <stdexcept>
 
 //  Public interface for libwallet library
-namespace Monero {
+namespace Wownero {
 
 enum NetworkType : uint8_t {
     MAINNET = 0,

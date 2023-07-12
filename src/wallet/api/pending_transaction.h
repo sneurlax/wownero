@@ -36,7 +36,7 @@
 #include <vector>
 
 
-namespace Monero {
+namespace Wownero {
 
 class WalletImpl;
 class PendingTransactionImpl : public PendingTransaction

@@ -43,7 +43,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Wownero {
 
 UnsignedTransaction::~UnsignedTransaction() {}
 

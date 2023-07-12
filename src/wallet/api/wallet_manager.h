@@ -33,7 +33,7 @@
 #include "net/http.h"
 #include <string>
 
-namespace Monero {
+namespace Wownero {
 
 class WalletManagerImpl : public WalletManager
 {

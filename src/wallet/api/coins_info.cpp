@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Wownero {
 
     CoinsInfo::~CoinsInfo() = default;
 
@@ -115,4 +115,4 @@ namespace Monero {
     }
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonero = Wownero;

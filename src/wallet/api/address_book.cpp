@@ -37,7 +37,7 @@
 
 #include <vector>
 
-namespace Monero {
+namespace Wownero {
   
 AddressBook::~AddressBook() {}
   
